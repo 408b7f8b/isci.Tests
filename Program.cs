@@ -17,7 +17,7 @@ namespace isci.Tests
         }
 
         [Fact]
-        public void Test1()
+        public void Test_Dateneintrag()
         {
             var dtb = new isci.Daten.dtBool(false, "bool");
             Assert.True(dtb.Identifikation == "bool");
@@ -111,9 +111,13 @@ namespace isci.Tests
         }
 
         [Fact]
-        public void Test2()
+        public void Test_Datenmodell()
         {
+        }
 
+        [Fact]
+        public void Test_Datenstruktur()
+        {
         }
     }
 }
